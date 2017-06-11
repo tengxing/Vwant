@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/tb.ico" type="image/x-icon">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Broadcast</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <header class="container">
+  	<nav class="nav nav-pils">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+    		<!--导航栏logo-->
+    			<a class="navbar-brand" href="#">
+        			<img alt="Brand" src="images/tb.ico">
+      			</a>
+      			<!--搜索框-->
+      			<form class="navbar-form navbar-left" style="margin-top:15px;" role="search">
+  					<div class="form-group">
+    					<input type="text" class="form-control" placeholder="找你所想...">
+  					</div>
+  					<button type="submit" class="btn btn-default btn-install">
+  						<img src="images/search.png">
+  					</button>
+				</form>
+				<!--右侧导航栏-->
+    			<ul class="nav nav-pills nav-remove">
+  					<li role="presentation" class="active"><a href="#">正在热播</a></li>
+  					<li role="presentation" class="dropdown">
+    				<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      				Dropdown <span class="caret"></span>
+    				</a>
+    					<ul class="dropdown-menu">
+    						<li role="presentation"><a href="#">正在热播</a></li>
+    						<li role="presentation"><a href="#">正在热播</a></li>
+    						<li role="presentation"><a href="#">正在热播</a></li>
+    					</ul>
+  					</li>
+				</ul>
+    		</div>
+  		</div>
+  	</nav>
+  </header>
+<div class="container body-container">
+	<!--中间左侧视频播放器-->
+	<div class="movie">
+		<video src="video/youling.mp4" controls preload="auto" id="v1"></video>
+		<div class="meta">
+			<div class="introduction">
+				<h4>Beautiful California Mountains</h4>
+				<p>Cras vitae mattis lacus. Integer sit amet scelerisque tortor. Etiam non elit non nunc tempor rutrum at at nulla. Praesent ac felis magna. Pellentesque in tincidunt sapien, sed aliquam nulla. </p>
+				<i class="push">By <strong>Irvin Simon</strong> Published on <strong>Junly 26,2015</strong></i>
+			</div>		
+			<div class="playtimes">
+				<span class="times_num">21,467</span>
+				<hr/><hr style="background-color:#fff;"/>
+				<div class="likeanddis">
+					<span class="like"><i class="glyphicon glyphicon-thumbs-up">&nbsp;Like </i></span>
+					<span class="dislike"><i class="glyphicon glyphicon-thumbs-down">&nbsp;Dislike</i></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--评论区-->
+	<div class="comment">
+		<div class="my_comment">
+			<img class="your_portrait" src="images/tb.ico">
+			<div class="input-group input-group-lg">
+      			<input type="text" class="form-control" placeholder="Leave your comment...">
+      			<span class="input-group-btn">
+        			<button class="btn btn-default" type="button">Go!</button>
+      			</span>
+    		</div><!-- /input-group -->
+		</div>
+		<!--已经提交的评论-->
+		<div class="comments">
+			<div class="commented">
+				<img class="your_portrait" src="images/tb.ico">
+				<h3>Elbert Robbins</h3><span>40 seconds ago</span><br/>
+				<p class="content">Thank you for sharing your experience with us, Great video.</p>
+			</div>
+			<div class="commented">
+				<img class="your_portrait" src="images/tb.ico">
+				<h3>Elbert Robbins</h3><span>40 seconds ago</span><br/>
+				<p class="content">Thank you for sharing your experience with us, Great video.</p>
+			</div>
+			<div class="commented">
+				<img class="your_portrait" src="images/tb.ico">
+				<h3>Elbert Robbins</h3><span>40 seconds ago</span><br/>
+				<p class="content">Thank you for sharing your experience with us, Great video.</p>
+			</div>
+			<div class="commented">
+				<img class="your_portrait" src="images/tb.ico">
+				<h3>Elbert Robbins</h3><span>40 seconds ago</span><br/>
+				<p class="content">Thank you for sharing your experience with us, Great video.</p>
+			</div>
+		</div>
+	</div>
+	<!--右侧相关视频区域-->
+	<div class="right">
+		<h3>NEXT VIDEO</h3>
+		<div class="next_video">
+			<div class="next">
+				<a href="#"><img src="images/next.png"></a>
+				<p>Donec faucibus viverra imperdiet. Nulla blandit euismod porttitor.</p>
+				<h4 class="push">By Irvin Simon &nbsp; <i class="glyphicon glyphicon-eye-open">134,955 </i></h4>
+			</div>
+			<div class="next">
+				<a href="#"><img src="images/next.png"></a>
+				<p>Donec faucibus viverra imperdiet. Nulla blandit euismod porttitor.</p>
+				<h4 class="push">By Irvin Simon &nbsp; <i class="glyphicon glyphicon-eye-open">134,955 </i></h4>
+			</div>
+			<div class="next">
+				<a href="#"><img src="images/next.png"></a>
+				<p>Donec faucibus viverra imperdiet. Nulla blandit euismod porttitor.</p>
+				<h4 class="push">By Irvin Simon &nbsp; <i class="glyphicon glyphicon-eye-open">134,955 </i></h4>
+			</div>
+			<div class="next">
+				<a href="#"><img src="images/next.png"></a>
+				<p>Donec faucibus viverra imperdiet. Nulla blandit euismod porttitor.</p>
+				<h4 class="push">By Irvin Simon &nbsp; <i class="glyphicon glyphicon-eye-open">134,955 </i></h4>
+			</div>
+			<div class="next">
+				<a href="#"><img src="images/next.png"></a>
+				<p>Donec faucibus viverra imperdiet. Nulla blandit euismod porttitor.</p>
+				<h4 class="push">By Irvin Simon &nbsp; <i class="glyphicon glyphicon-eye-open">134,955 </i></h4>
+			</div>
+			<div class="next">
+				<a href="#"><img src="images/next.png"></a>
+				<p>Donec faucibus viverra imperdiet. Nulla blandit euismod porttitor.</p>
+				<h4 class="push">By Irvin Simon &nbsp; <i class="glyphicon glyphicon-eye-open">134,955 </i></h4>
+			</div>
+		</div>
+	</div>
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
