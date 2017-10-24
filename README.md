@@ -1,10 +1,9 @@
 # Vwant
-video want
-## Vip视频通道　爱奇艺　腾讯　芒果　等等
-http://yjxxclub.cn:8080/Vwant/broadcast/index.html
+
+## node.js　mysql　express
+对github.com/tengxing/ssm的框架进行改造
 
 使用方法：
-
-复制ｖｉｐ影片的地址链接到
-http://yjxxclub.cn:8080/Vwant/broadcast/index.html
-的文本框，即可播放
+进入主目录
+执行：npm start
+localhost:3000/book/users 即可。
